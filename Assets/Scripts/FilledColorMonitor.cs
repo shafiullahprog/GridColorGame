@@ -42,7 +42,7 @@ public class FilledColorMonitor : MonoBehaviour
         }
 
         float percentage = (float)colorCount / totalGrids * 100f;
-        percentageText.text = $"{percentage:F1}%";
+        percentageText.text = $"{percentage:F0}%";
     }
 
 }
