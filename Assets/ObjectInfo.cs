@@ -12,11 +12,11 @@ public class ObjectInfo : MonoBehaviour
     public int weight;
     public ObjectType objectType;
 
-    CheckWieght checkWieght;
+    CheckWeight checkWieght;
 
     private void Start()
     {
-        checkWieght = FindObjectOfType<CheckWieght>();
+        checkWieght = FindObjectOfType<CheckWeight>();
     }
 
     private void OnMouseDown()

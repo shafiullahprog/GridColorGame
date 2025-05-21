@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class SetEquation : MonoBehaviour
 {
     public Equation equation;
-    public CheckWieght controller;
+    public CheckWeight controller;
     public GameObject canvasObj;
 
     TextMeshProUGUI textMeshPro;

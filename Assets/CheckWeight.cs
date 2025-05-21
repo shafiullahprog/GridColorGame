@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckWieght : MonoBehaviour
+public class CheckWeight : MonoBehaviour
 {
     public Equation equation;
 
@@ -17,7 +17,7 @@ public class CheckWieght : MonoBehaviour
 
 
 
-    public int TotalAppleToRemove = 0;
+    public int TotalAppleToRemove = 0, TotalRHSValue;
     /*public void InstantiateObjectsFromEquation()
     {
         int boxCount = equation.X;
